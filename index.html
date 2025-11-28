@@ -222,38 +222,38 @@
             </p>
 
             <!-- Форма регистрации (пока без отправки на сервер) -->
-            <form>
-                <div>
-                    <label>Имя</label>
-                    <input type="text" placeholder="Твоё имя" required>
-                </div>
 
-                <div>
-                    <label>Фамилия</label>
-                    <input type="text" placeholder="Твоя фамилия" required>
-                </div>
+<form action="https://formspree.io/f/movoybgr" method="POST">
+    <div>
+        <label>Имя</label>
+        <input name="Имя" type="text" placeholder="Твоё имя" required>
+    </div>
 
-                <div>
-                    <label>Возраст</label>
-                    <input type="number" placeholder="Например, 18">
-                </div>
+    <div>
+        <label>Фамилия</label>
+        <input name="Фамилия" type="text" placeholder="Твоя фамилия" required>
+    </div>
 
-                <div>
-                    <label>Телефон (WhatsApp)</label>
-                    <input type="tel" placeholder="+44 ..." required>
-                </div>
+    <div>
+        <label>Возраст</label>
+        <input name="Возраст" type="number" placeholder="Например, 18">
+    </div>
 
-                <div class="form-full">
-                    <label>Церковь (если посещаешь)</label>
-                    <input type="text" placeholder="Например, New Life Church">
-                </div>
+    <div>
+        <label>Телефон (WhatsApp)</label>
+        <input name="Телефон" type="tel" placeholder="+44 ..." required>
+    </div>
 
-                <div class="form-full">
-                    <label>Комментарий / особые пожелания</label>
-                    <textarea placeholder="Например, пожелания, аллергии, вопросы и т.п."></textarea>
-                </div>
+    <div class="form-full">
+        <label>Церковь (если посещаешь)</label>
+        <input name="Церковь" type="text" placeholder="Например, New Life Church">
+    </div>
 
-                <button type="button">Зарегистрироваться</button>
-            </form>
-            
+    <div class="form-full">
+        <label>Комментарий / особые пожелания</label>
+        <textarea name="Комментарий" placeholder="Например, пожелания, аллергии, вопросы и т.п."></textarea>
+    </div>
+
+    <button type="submit">Зарегистрироваться</button>
+</form>
 
